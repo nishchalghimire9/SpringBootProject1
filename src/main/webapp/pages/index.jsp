@@ -97,12 +97,17 @@
  		 		
  		 		</c:forEach>
  		 		
+ 		 		<tr>
+ 		 		<c:if test="${empty plans}">
+ 		 		<td colspan ="8" style="text-align: center"> No records found</td>
+ 		 		</c:if>
+ 		 		</tr>
  		 	</tbody>
  		 </table>
  		 
  		 <hr/>
  		 
- 		 Export : <a href=""> Excel</a> <a href="">pdf</a>
+ 		 Export : <a href="excel"> Excel</a> <a href="pdf">pdf</a>
    </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 

@@ -16,4 +16,3 @@ public interface CitizenPlanRepo  extends JpaRepository <CitizenPlan, Integer> {
 	    public List<String> getPlanStatus();	
 
 }
-//citizen_insurance_plan_information
